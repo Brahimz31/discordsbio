@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Cabin:wght@500&family=Noto+Kufi+Arabic&family=Righteous&family=Tajawal:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #303135;
+    transition: .2s ease;
+}
+#small-container{
+    position: relative;
+    width: 90%;
+    height: 50vh;
+    border: 3px solid #3B3D3C;
+    background-color: #0D0F0E;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50%;
+    border-radius: 7px;
+    transition: .2s ease;
+}
+#content{
+    position: absolute;
+    max-width: 98%;
+    margin: 10px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    padding: 0;
+    color: white;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    transition: .2s ease;
+}
+#main-title{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    color: #595EED;
+}
+#main-tag{
+    position: absolute;
+    width: 100px;
+    top: -28px;
+    left: 230px;
+    color: white;
+    font-size: 18px;
+    transition: .2s ease;
+}
+#toggle-container{
+    position: fixed;
+    top: 100vh;
+    left: 100%;
+    margin: -50px 0 0 -50px;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #72757C;
+}
+.toggle-ball{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 74%;
+    width: 25px;
+    height: 25px;
+    background: #ECECEC;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.active{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 26%;
+    width: 25px;
+    height: 25px;
+    background: #ECECEC;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s ease;
+    
+}
